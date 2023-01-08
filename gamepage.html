@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="gamepage.css">
+</head>
+<body style="background-color: black;">
+    <br><br>
+   
+    <!-- Back button -->
+
+    <div class="btncontainer">
+        <div class="row">
+            <div class="col-sm">
+                <a href="startpage.html"> <button type="button" class="btn btn-danger">Back</button></a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    
+
+    <!-- Game -->
+
+    <div id="container">
+        <h1><center>Start Game</center></h1>
+        <Br></Br>
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+
+        </div>
+            <h2 id="status"></h2>
+            <br><br><br>
+            <button id="restartBtn" class="btn btn-danger">Start Over</button>
+    </div>
+
+
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="gamepage.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
